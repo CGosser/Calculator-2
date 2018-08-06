@@ -19,12 +19,29 @@
 // var result = multiply(number1, number2);
 // alert(result);
 
-function bmi (weight, height) {
-  return weight/(height*height);
+// function bmi (weight, height) {
+//   return weight/(height*height);
+// };
+//
+// var weight = parseFloat(prompt("enter weight"));
+// var height = parseFloat(prompt("enter height"));
+//
+// alert(bmi(weight, height));
+
+// var bmi = function(weight, height) {
+//   return weight/(height*height);
+// };
+//
+// var weight = parseFloat(prompt("Enter weight in Kilos"));
+// var height = parseFloat(prompt("enter height in Meters"));
+// alert(bmi(weight,height));
+//
+// var userInput()
+
+function tempConv (Celcius) {
+  return Celcius *(9/5) + 32
 };
-// alert(bmi(77, 1.778));
 
-var weight = parseFloat(prompt("enter weight"));
-var height = parseFloat(prompt("enter height"));
+var Celcius = parseFloat(prompt("enter Temperature in Celcius"));
 
-alert(bmi(weight, height));
+alert(tempConv(Celcius));
